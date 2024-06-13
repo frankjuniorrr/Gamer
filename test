@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Informative Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Over Ons</a></li>
+                <li><a href="#news">Nieuws</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welkom op onze Game Informative Website</h1>
+            <p>Hier vindt u het laatste nieuws, reviews en meer over games.</p>
+        </section>
+
+        <section id="about">
+            <h2>Over Ons</h2>
+            <p>Wij zijn gepassioneerde gamers die het laatste nieuws en de beste reviews over games delen.</p>
+        </section>
+
+        <section id="news">
+            <h2>Nieuws</h2>
+            <p>Blijf op de hoogte van het laatste nieuws in de gamingwereld.</p>
+        </section>
+
+        <section id="reviews">
+            <h2>Reviews</h2>
+            <p>Lees onze uitgebreide reviews van de nieuwste games.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Naam:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Bericht:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Verstuur</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Game Informative Website</p>
+    </footer>
+</body>
+</html>
